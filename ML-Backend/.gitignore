@@ -1,0 +1,70 @@
+# --------------------
+# Python cache
+# --------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# --------------------
+# Virtual Environment
+# --------------------
+venv/
+env/
+.venv/
+
+# --------------------
+# Environment variables / secrets
+# --------------------
+.env
+.env.*
+
+# --------------------
+# ML / Data files
+# --------------------
+data/
+*.csv
+*.tsv
+*.xlsx
+*.json
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# --------------------
+# Model checkpoints
+# --------------------
+models/
+checkpoints/
+
+# --------------------
+# Logs
+# --------------------
+logs/
+*.log
+
+# --------------------
+# Jupyter / Experiments
+# --------------------
+.ipynb_checkpoints/
+
+# --------------------
+# OS / Editor junk
+# --------------------
+.DS_Store
+Thumbs.db
+.vscode/
+
+# --------------------
+# Test / Coverage
+# --------------------
+.coverage
+htmlcov/
+
+# --------------------
+# PyTorch / TensorFlow cache
+# --------------------
+.cache/
